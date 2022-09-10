@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GG</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<style>
+    #slider{
+        overflow: hidden;
+    }
+    #slider img{
+        width: 33.3333%;
+        height: 390px;
+        object-fit: cover;
+    }
+    #slides{
+        position: relative;
+        width: 300%;
+        font-size: 0;
+        left: -100%;
+    }
+    button{
+        font-size: 50px;
+        border: none;
+        background: none;
+        color: gray;
+    }
+    #prv{
+        position: relative;
+        left: 20px;
+        top: -250px;
+    }
+    #nxt{
+        position: relative;
+        top: -250px;
+        float: right;
+    }
+</style>
+<body>
+<div id="slider">
+    <div id="slides">
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpeg" alt="">
+    </div>
+</div>
+<button id="prv">
+    <
+</button>
+<button id="nxt">
+    >
+</button>
+
+<script src="js.js"></script>
+</body>
+</html>
